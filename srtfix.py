@@ -31,6 +31,18 @@
 # Where "1" is the "Subtitle number".
 # Missing "Subtitle number" causes problems for HW player, so they
 # cannot sometimes correctly load subtitles.
+#
+# --------------------------------------------------------------------
+#
+# USAGE:
+#
+# 	$ python srtfix.py broken.srt fixed.srt
+#
+# for more help
+#
+#	$ python srtfix.py -h
+# or
+#	$ python srtfix.py --help
 
 from sys import argv
 
@@ -39,7 +51,7 @@ EXIT_SUCCESS = 0
 
 def error_bad_argv():
 	print "Usage: srtfix.py INPUT OUTPUT"
-	print "Try 'srtfix.py -h [--help] INPUT_for more information."
+	print "Try 'srtfix.py -h [--help] for more information."
 
 def show_help():
 	print "Usage: srtfix.py INPUT OUTPUT"
