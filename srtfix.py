@@ -84,12 +84,12 @@ def main():
 	cnt = 1
 	buff = []
 	buff.append(cnt)
-	buff.append("\r\n")
+	buff.append("\r\n") # I know...
 	cnt += 1
 
 	# load broken subtitles from INPUT and fix them
 	for line in INPUT_fo:
-		if (line == "\r\n"):
+		if (line == "\r\n" or line == "\n"):
 			buff.append("\r\n")
 			buff.append(cnt)
 			cnt += 1
