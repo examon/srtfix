@@ -50,13 +50,13 @@ EXIT_FAILURE = 1
 EXIT_SUCCESS = 0
 
 def error_bad_argv():
-	print "Usage: srtfix.py INPUT OUTPUT"
-	print "Try 'srtfix.py -h [--help] for more information."
+	print "Usage: %s broken.srt fixed.srt" % argv[0]
+	print "Try '%s -h [--help] for more information." % argv[0]
 
 def show_help():
-	print "Usage: srtfix.py INPUT OUTPUT"
-	print "INPUT - broken subtitles"
-	print "OUTPUT - fixed subtitles"
+	print "Usage: %s broken.srt fixed.srt" % argv[0]
+	print "broken.srt: broken subtitles"
+	print "fixed.srt: fixed subtitles"
 
 def check_argv():
 	if (len(argv) != 2 and len(argv) != 3):
