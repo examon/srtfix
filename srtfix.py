@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Copyright (C) 2012 exo <exo[at]tty[dot]sk>
+# Copyright (C) 2012 Tomas Meszaros <exo [at] tty [dot] sk>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
